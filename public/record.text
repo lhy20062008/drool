@@ -1,0 +1,18 @@
+血糖值，血糖水平
+<= 3.9, 0
+<= 4.4, 1
+<= 7.0, 2
+<= 16.7, 3
+> 16.7, 4
+
+血糖纪录统计，统计以下数据：
+fbgCount, acktype is 0, 2, 4
+fbgNormalCount, acktype is 0, 2, 4 and level is 2
+twoHpgCount, acktype is 1, 3, 5
+twoHpgNormalCount, acktype is 1, 3, 5 and level is 2
+
+hypoglycemiacount, level is 0
+hyperglycemiaCount, level is 4
+averageFBG, acktype is 0, 2, 4
+averageTwoHpg, acktype is 1, 3, 5
+
